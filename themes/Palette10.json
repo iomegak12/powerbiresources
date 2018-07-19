@@ -1,0 +1,68 @@
+{
+    "name": "Sunflower Twilight",
+    "dataColors": ["#F17925","#004753","#CCAA14","#4B4C4E","#D82C20","#A3D0D4","#536F18","#46ABB0"],
+    "background":"#FFFFFF",
+    "foreground": "#004753",
+    "tableAccent": "#F17925",
+	"visualStyles":{
+        "*":{
+            "*":{
+                "*":[{
+                    "responsive":true,
+				    "wordWrap":true,
+                    "fontSize":11
+                }],
+			    "wordWrap":[{
+				    "show":true
+                }],
+                "labels":[{
+                    "show":true,
+                    "labelOrientation":"vertical"
+                }],
+                "categoryAxis":[{
+                    "showAxisTitle":true
+                }],
+                "valueAxis":[{
+                    "showAxisTitle":true
+                }]
+		    }
+	    },
+	    "scatterChart":{
+		    "*":{
+			    "fillPoint":[{
+				    "show":true
+				}]
+		    }
+	    },
+        "card":{
+            "*":{
+                "labels":[{
+                    "fontSize":27
+                }],
+                "categoryLabels":[{
+                    "fontSize":12
+                }]
+            }
+        },
+        "donutChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        },
+        "pieChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        }
+    }
+ }

@@ -1,0 +1,65 @@
+{
+    "name": "Autumn",
+    "dataColors": ["#E2A84E", "#A1A849", "#649F5E", "#329077", "#2E7C85", "#4E647F", "#634B67", "#653745"],
+    "background":"#FFFFFF",
+    "foreground": "#A1A849",
+    "tableAccent": "#E2A84E",
+	"visualStyles":{
+        "*":{
+            "*":{
+                "*":[{
+                    "responsive":true,
+				    "wordWrap":true,
+                    "fontSize":11
+                }],
+			    "wordWrap":[{
+				    "show":true
+                }],
+                "labels":[{
+                    "show":true,
+                    "labelOrientation":"vertical"
+                }],
+                "categoryAxis":[{
+                    "showAxisTitle":true
+                }],
+                "valueAxis":[{
+                    "showAxisTitle":true
+                }]
+		    }
+	    },
+	    "scatterChart":{
+		    "*":{
+			    "fillPoint":[{
+				    "show":true
+				}]
+		    }
+	    },
+        "lineChart":{
+            "*":{
+                "legend":[{
+                    "legendMarkerRendering":"lineAndMarker"
+                }] 
+            }
+        },
+        "donutChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        },
+        "pieChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{ 
+    "name": "Waveform", 
+    "dataColors": ["#31B6FD", "#4584D3", "#5BD078", "#A5D028", "#F5C040", "#05E0DB", "#3153FD", "#4C45D3", "#5BD0B0", "#54D028", "#D0F540", "#057BE0"],
+    "background":"#FFFFFF",
+    "foreground": "#4584D3",
+    "tableAccent": "#31B6FD"
+}
