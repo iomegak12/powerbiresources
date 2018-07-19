@@ -1,0 +1,11 @@
+SalesReasonId,SalesReasonName,SalesReasonReasonType
+1,Price,Other
+2,On Promotion,Promotion
+3,Magazine Advertisement,Marketing
+4,Television  Advertisement,Marketing
+5,Manufacturer,Other
+6,Review,Other
+7,Demo Event,Marketing
+8,Sponsorship,Marketing
+9,Quality,Other
+10,Other,Other

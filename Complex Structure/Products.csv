@@ -1,0 +1,505 @@
+ProductID,Name,ProductNumber,Product Subcategory ID,Color,Size,Stock Level,Supplier
+1,Adjustable Race,AR-5381,21,Black,58,461,Supplier 1
+2,Bearing Ball,BA-8327,29,Black,58,343,Supplier 5
+3,BB Ball Bearing,BE-2349,8,Black,58,172,Supplier 6
+4,Headset Ball Bearings,BE-2908,6,Silver,58,111,Supplier 2
+5,Blade,BL-2036,5,Silver,58,262,Supplier 5
+6,LL Crankarm,CA-5965,16,Black,58,399,Supplier 6
+7,ML Crankarm,CA-6738,22,Black,58,396,Supplier 2
+8,HL Crankarm,CA-7457,16,Black,58,240,Supplier 2
+9,Chainring Bolts,CB-2903,10,Silver,M,110,Supplier 8
+10,Chainring Nut,CN-6137,3,Silver,L,270,Supplier 2
+11,Chainring,CR-7833,15,Black,M,468,Supplier 5
+12,Crown Race,CR-9981,32,Black,L,474,Supplier 4
+13,Chain Stays,CS-2812,10,Black,M,135,Supplier 9
+14,Decal 1,DC-8732,7,Black,L,241,Supplier 4
+15,Decal 2,DC-9824,34,Silver,S,490,Supplier 3
+16,Down Tube,DT-2377,3,Silver,M,404,Supplier 6
+17,Mountain End Caps,EC-M092,16,Black,L,219,Supplier 3
+18,Road End Caps,EC-R098,19,Black,XL,286,Supplier 9
+19,Touring End Caps,EC-T209,27,Black,58,366,Supplier 9
+20,Fork End,FE-3760,34,Black,58,441,Supplier 7
+21,Freewheel,FH-2981,4,Silver,58,385,Supplier 8
+22,Flat Washer 1,FW-1000,5,Silver,58,154,Supplier 3
+23,Flat Washer 6,FW-1200,8,Black,58,208,Supplier 5
+24,Flat Washer 2,FW-1400,19,Black,58,147,Supplier 8
+25,Flat Washer 9,FW-3400,22,Black,58,138,Supplier 1
+26,Flat Washer 4,FW-3800,9,Black,58,449,Supplier 1
+27,Flat Washer 3,FW-5160,3,Silver,M,491,Supplier 1
+28,Flat Washer 8,FW-5800,15,Silver,L,134,Supplier 9
+29,Flat Washer 5,FW-7160,27,Black,M,178,Supplier 2
+30,Flat Washer 7,FW-9160,13,Black,L,260,Supplier 4
+31,Fork Crown,FC-3654,11,Black,M,375,Supplier 4
+32,Front Derailleur Cage,FC-3982,33,Black,L,209,Supplier 1
+33,Front Derailleur Linkage,FL-2301,34,Silver,S,326,Supplier 3
+34,Guide Pulley,GP-0982,21,Silver,M,425,Supplier 6
+35,LL Grip Tape,GT-0820,32,Black,L,240,Supplier 3
+36,ML Grip Tape,GT-1209,27,Black,XL,335,Supplier 4
+37,HL Grip Tape,GT-2908,24,Black,58,348,Supplier 4
+38,Thin-Jam Hex Nut 9,HJ-1213,12,Black,58,113,Supplier 7
+39,Thin-Jam Hex Nut 10,HJ-1220,15,Silver,58,173,Supplier 1
+40,Thin-Jam Hex Nut 1,HJ-1420,8,Silver,58,162,Supplier 7
+41,Thin-Jam Hex Nut 2,HJ-1428,33,Black,58,292,Supplier 6
+42,Thin-Jam Hex Nut 15,HJ-3410,37,Black,58,164,Supplier 4
+43,Thin-Jam Hex Nut 16,HJ-3416,13,Black,58,289,Supplier 7
+44,Thin-Jam Hex Nut 5,HJ-3816,10,Black,58,445,Supplier 4
+45,Thin-Jam Hex Nut 6,HJ-3824,26,Silver,M,325,Supplier 6
+46,Thin-Jam Hex Nut 3,HJ-5161,36,Silver,L,252,Supplier 8
+47,Thin-Jam Hex Nut 4,HJ-5162,34,Black,M,495,Supplier 1
+48,Thin-Jam Hex Nut 13,HJ-5811,16,Black,L,477,Supplier 3
+49,Thin-Jam Hex Nut 14,HJ-5818,12,Black,M,208,Supplier 8
+50,Thin-Jam Hex Nut 7,HJ-7161,4,Black,L,280,Supplier 7
+51,Thin-Jam Hex Nut 8,HJ-7162,8,Silver,S,453,Supplier 9
+52,Thin-Jam Hex Nut 12,HJ-9080,31,Silver,M,137,Supplier 1
+53,Thin-Jam Hex Nut 11,HJ-9161,5,Black,L,326,Supplier 1
+54,Hex Nut 5,HN-1024,1,Black,XL,199,Supplier 2
+55,Hex Nut 6,HN-1032,20,Black,58,220,Supplier 7
+56,Hex Nut 16,HN-1213,3,Black,58,335,Supplier 9
+57,Hex Nut 17,HN-1220,4,Silver,58,272,Supplier 3
+58,Hex Nut 7,HN-1224,7,Silver,58,293,Supplier 7
+59,Hex Nut 8,HN-1420,18,Black,58,384,Supplier 3
+60,Hex Nut 9,HN-1428,25,Black,58,377,Supplier 1
+61,Hex Nut 22,HN-3410,31,Black,58,408,Supplier 6
+62,Hex Nut 23,HN-3416,19,Black,58,165,Supplier 6
+63,Hex Nut 12,HN-3816,30,Silver,M,437,Supplier 8
+64,Hex Nut 13,HN-3824,30,Silver,L,255,Supplier 8
+65,Hex Nut 1,HN-4402,8,Black,M,282,Supplier 4
+66,Hex Nut 10,HN-5161,20,Black,L,171,Supplier 7
+67,Hex Nut 11,HN-5162,24,Black,M,181,Supplier 5
+68,Hex Nut 2,HN-5400,2,Black,L,218,Supplier 1
+69,Hex Nut 20,HN-5811,34,Silver,S,226,Supplier 1
+70,Hex Nut 21,HN-5818,34,Silver,M,353,Supplier 4
+71,Hex Nut 3,HN-6320,18,Black,L,480,Supplier 2
+72,Hex Nut 14,HN-7161,13,Black,XL,481,Supplier 9
+73,Hex Nut 15,HN-7162,35,Black,58,186,Supplier 5
+74,Hex Nut 4,HN-8320,15,Black,58,383,Supplier 3
+75,Hex Nut 18,HN-9161,33,Silver,58,205,Supplier 2
+76,Hex Nut 19,HN-9168,5,Silver,58,412,Supplier 1
+77,Handlebar Tube,HT-2981,22,Black,58,186,Supplier 5
+78,Head Tube,HT-8019,27,Black,58,451,Supplier 3
+79,LL Hub,HU-6280,23,Black,58,102,Supplier 6
+80,HL Hub,HU-8998,1,Black,58,177,Supplier 1
+81,Keyed Washer,KW-4091,9,Silver,M,374,Supplier 8
+82,External Lock Washer 3,LE-1000,1,Silver,L,279,Supplier 6
+83,External Lock Washer 4,LE-1200,35,Black,M,341,Supplier 3
+84,External Lock Washer 9,LE-1201,15,Black,L,105,Supplier 5
+85,External Lock Washer 5,LE-1400,30,Black,M,106,Supplier 8
+86,External Lock Washer 7,LE-3800,34,Black,L,295,Supplier 1
+87,External Lock Washer 6,LE-5160,31,Silver,S,343,Supplier 2
+88,External Lock Washer 1,LE-6000,24,Silver,M,348,Supplier 8
+89,External Lock Washer 8,LE-7160,25,Black,L,436,Supplier 1
+90,External Lock Washer 2,LE-8000,5,Black,XL,306,Supplier 4
+91,Internal Lock Washer 3,LI-1000,10,Black,58,373,Supplier 3
+92,Internal Lock Washer 4,LI-1200,2,Black,58,400,Supplier 8
+93,Internal Lock Washer 9,LI-1201,17,Silver,58,476,Supplier 4
+94,Internal Lock Washer 5,LI-1400,30,Silver,58,393,Supplier 9
+95,Internal Lock Washer 7,LI-3800,30,Black,58,117,Supplier 4
+96,Internal Lock Washer 6,LI-5160,1,Black,58,395,Supplier 2
+97,Internal Lock Washer 10,LI-5800,26,Black,58,190,Supplier 8
+98,Internal Lock Washer 1,LI-6000,24,Black,58,220,Supplier 6
+99,Internal Lock Washer 8,LI-7160,14,Silver,M,450,Supplier 4
+100,Internal Lock Washer 2,LI-8000,19,Silver,L,309,Supplier 4
+101,Thin-Jam Lock Nut 9,LJ-1213,36,Black,M,110,Supplier 7
+102,Thin-Jam Lock Nut 10,LJ-1220,26,Black,L,118,Supplier 4
+103,Thin-Jam Lock Nut 1,LJ-1420,11,Black,M,356,Supplier 5
+104,Thin-Jam Lock Nut 2,LJ-1428,17,Black,L,174,Supplier 1
+105,Thin-Jam Lock Nut 15,LJ-3410,24,Silver,S,454,Supplier 4
+106,Thin-Jam Lock Nut 16,LJ-3416,4,Silver,M,101,Supplier 1
+107,Thin-Jam Lock Nut 5,LJ-3816,26,Black,L,249,Supplier 6
+108,Thin-Jam Lock Nut 6,LJ-3824,6,Black,XL,414,Supplier 9
+109,Thin-Jam Lock Nut 3,LJ-5161,33,Black,58,265,Supplier 2
+110,Thin-Jam Lock Nut 4,LJ-5162,26,Black,58,281,Supplier 2
+111,Thin-Jam Lock Nut 13,LJ-5811,30,Silver,58,237,Supplier 9
+112,Thin-Jam Lock Nut 14,LJ-5818,4,Silver,58,282,Supplier 8
+113,Thin-Jam Lock Nut 7,LJ-7161,12,Black,58,318,Supplier 2
+114,Thin-Jam Lock Nut 8,LJ-7162,10,Black,58,155,Supplier 5
+115,Thin-Jam Lock Nut 12,LJ-9080,36,Black,58,276,Supplier 6
+116,Thin-Jam Lock Nut 11,LJ-9161,5,Black,58,135,Supplier 5
+117,Lock Nut 5,LN-1024,18,Silver,M,140,Supplier 8
+118,Lock Nut 6,LN-1032,20,Silver,L,181,Supplier 5
+119,Lock Nut 16,LN-1213,16,Black,M,385,Supplier 2
+120,Lock Nut 17,LN-1220,36,Black,L,232,Supplier 5
+121,Lock Nut 7,LN-1224,14,Black,M,305,Supplier 2
+122,Lock Nut 8,LN-1420,8,Black,L,326,Supplier 7
+123,Lock Nut 9,LN-1428,31,Silver,S,452,Supplier 2
+124,Lock Nut 22,LN-3410,4,Silver,M,145,Supplier 2
+125,Lock Nut 23,LN-3416,24,Black,L,425,Supplier 3
+126,Lock Nut 12,LN-3816,32,Black,XL,330,Supplier 3
+127,Lock Nut 13,LN-3824,7,Black,58,130,Supplier 6
+128,Lock Nut 1,LN-4400,6,Black,58,224,Supplier 8
+129,Lock Nut 10,LN-5161,7,Silver,58,181,Supplier 2
+130,Lock Nut 11,LN-5162,16,Silver,58,154,Supplier 9
+131,Lock Nut 2,LN-5400,36,Black,58,380,Supplier 8
+132,Lock Nut 20,LN-5811,18,Black,58,190,Supplier 8
+133,Lock Nut 21,LN-5818,8,Black,58,184,Supplier 7
+134,Lock Nut 3,LN-6320,10,Black,58,315,Supplier 3
+135,Lock Nut 14,LN-7161,2,Silver,M,394,Supplier 5
+136,Lock Nut 15,LN-7162,8,Silver,L,448,Supplier 4
+137,Lock Nut 4,LN-8320,25,Black,M,275,Supplier 9
+138,Lock Nut 19,LN-9080,34,Black,L,417,Supplier 3
+139,Lock Nut 18,LN-9161,32,Black,M,397,Supplier 6
+140,Lock Ring,LR-2398,13,Black,L,374,Supplier 1
+141,Lower Head Race,LR-8520,32,Silver,S,206,Supplier 7
+142,Lock Washer 4,LW-1000,4,Silver,M,188,Supplier 6
+143,Lock Washer 5,LW-1200,4,Black,L,151,Supplier 4
+144,Lock Washer 10,LW-1201,22,Black,XL,422,Supplier 8
+145,Lock Washer 6,LW-1400,28,Black,58,475,Supplier 4
+146,Lock Washer 13,LW-3400,11,Black,58,469,Supplier 3
+147,Lock Washer 8,LW-3800,27,Silver,58,396,Supplier 1
+148,Lock Washer 1,LW-4000,19,Silver,58,171,Supplier 1
+149,Lock Washer 7,LW-5160,29,Black,58,378,Supplier 5
+150,Lock Washer 12,LW-5800,34,Black,58,449,Supplier 9
+151,Lock Washer 2,LW-6000,16,Black,58,233,Supplier 7
+152,Lock Washer 9,LW-7160,6,Black,58,229,Supplier 5
+153,Lock Washer 3,LW-8000,31,Silver,M,331,Supplier 4
+154,Lock Washer 11,LW-9160,31,Silver,L,152,Supplier 7
+155,Metal Angle,MA-7075,2,Black,M,461,Supplier 6
+156,Metal Bar 1,MB-2024,33,Black,L,126,Supplier 9
+157,Metal Bar 2,MB-6061,18,Black,M,441,Supplier 8
+158,Metal Plate 2,MP-2066,26,Black,L,367,Supplier 4
+159,Metal Plate 1,MP-2503,9,Silver,S,475,Supplier 8
+160,Metal Plate 3,MP-4960,1,Silver,M,279,Supplier 4
+161,Metal Sheet 2,MS-0253,19,Black,L,492,Supplier 2
+162,Metal Sheet 3,MS-1256,3,Black,XL,186,Supplier 1
+163,Metal Sheet 7,MS-1981,10,Black,58,236,Supplier 5
+164,Metal Sheet 4,MS-2259,4,Black,58,112,Supplier 7
+165,Metal Sheet 5,MS-2341,31,Silver,58,252,Supplier 1
+166,Metal Sheet 6,MS-2348,11,Silver,58,378,Supplier 3
+167,Metal Sheet 1,MS-6061,4,Black,58,378,Supplier 5
+168,Metal Tread Plate,MT-1000,28,Black,58,432,Supplier 8
+169,LL Nipple,NI-4127,2,Black,58,186,Supplier 5
+170,HL Nipple,NI-9522,8,Black,58,122,Supplier 3
+171,Paint - Black,PA-187B,30,Silver,M,414,Supplier 4
+172,Paint - Red,PA-361R,9,Silver,L,338,Supplier 3
+173,Paint - Silver,PA-529S,11,Black,M,451,Supplier 1
+174,Paint - Blue,PA-632U,34,Black,L,161,Supplier 3
+175,Paint - Yellow,PA-823Y,2,Black,M,190,Supplier 3
+176,Pinch Bolt,PB-6109,17,Black,L,275,Supplier 3
+177,Cup-Shaped Race,RA-2345,37,Silver,S,292,Supplier 7
+178,Cone-Shaped Race,RA-7490,33,Silver,M,357,Supplier 7
+179,Reflector,RF-9198,22,Black,L,205,Supplier 8
+180,LL Mountain Rim,RM-M464,29,Black,XL,283,Supplier 7
+181,ML Mountain Rim,RM-M692,24,Black,58,337,Supplier 7
+182,HL Mountain Rim,RM-M823,16,Black,58,243,Supplier 6
+183,LL Road Rim,RM-R436,29,Silver,58,291,Supplier 1
+184,ML Road Rim,RM-R600,21,Silver,58,426,Supplier 9
+185,HL Road Rim,RM-R800,15,Black,58,172,Supplier 4
+186,Touring Rim,RM-T801,32,Black,58,426,Supplier 7
+187,LL Mountain Seat Assembly,SA-M198,33,Black,58,206,Supplier 3
+188,ML Mountain Seat Assembly,SA-M237,34,Black,58,303,Supplier 9
+189,HL Mountain Seat Assembly,SA-M687,33,Silver,M,349,Supplier 7
+190,LL Road Seat Assembly,SA-R127,21,Silver,L,333,Supplier 4
+191,ML Road Seat Assembly,SA-R430,5,Black,M,218,Supplier 4
+192,HL Road Seat Assembly,SA-R522,3,Black,L,236,Supplier 8
+193,LL Touring Seat Assembly,SA-T467,30,Black,M,399,Supplier 3
+194,ML Touring Seat Assembly,SA-T612,18,Black,L,396,Supplier 4
+195,HL Touring Seat Assembly,SA-T872,32,Silver,S,247,Supplier 7
+196,LL Spindle/Axle,SD-2342,6,Silver,M,157,Supplier 6
+197,HL Spindle/Axle,SD-9872,7,Black,L,435,Supplier 9
+198,LL Shell,SH-4562,32,Black,XL,386,Supplier 2
+199,HL Shell,SH-9312,30,Black,58,159,Supplier 5
+200,Spokes,SK-9283,28,Black,58,352,Supplier 8
+201,Seat Lug,SL-0931,21,Silver,58,442,Supplier 3
+202,Stem,SM-9087,5,Silver,58,124,Supplier 6
+203,Seat Post,SP-2981,1,Black,58,359,Supplier 2
+204,Steerer,SR-2098,2,Black,58,167,Supplier 1
+205,Seat Stays,SS-2985,18,Black,58,278,Supplier 2
+206,Seat Tube,ST-9828,9,Black,58,254,Supplier 9
+207,Top Tube,TO-2301,23,Silver,M,477,Supplier 2
+208,Tension Pulley,TP-0923,11,Silver,L,409,Supplier 5
+209,Rear Derailleur Cage,RC-0291,28,Black,M,422,Supplier 6
+210,HL Road Frame - Black- 58,FR-R92B-58,14,Black,L,471,Supplier 9
+211,HL Road Frame - Red- 58,FR-R92R-58,14,Black,M,111,Supplier 8
+212,Sport-100 Helmet- Red,HL-U509-R,31,Black,L,262,Supplier 7
+213,Sport-100 Helmet- Black,HL-U509,31,Silver,S,266,Supplier 8
+214,Mountain Bike Socks- M,SO-B909-M,23,Silver,M,267,Supplier 2
+215,Mountain Bike Socks- L,SO-B909-L,23,Black,L,114,Supplier 9
+216,Sport-100 Helmet- Blue,HL-U509-B,31,Black,XL,364,Supplier 7
+217,AWC Logo Cap,CA-1098,19,Black,58,401,Supplier 6
+218,Long-Sleeve Logo Jersey- S,LJ-0192-S,21,Black,58,287,Supplier 6
+219,Long-Sleeve Logo Jersey- M,LJ-0192-M,21,Silver,58,352,Supplier 7
+220,Long-Sleeve Logo Jersey- L,LJ-0192-L,21,Silver,58,321,Supplier 9
+221,Long-Sleeve Logo Jersey- XL,LJ-0192-X,21,Black,58,491,Supplier 5
+222,HL Road Frame - Red- 62,FR-R92R-62,14,Black,58,171,Supplier 1
+223,HL Road Frame - Red- 44,FR-R92R-44,14,Black,58,161,Supplier 5
+224,HL Road Frame - Red- 48,FR-R92R-48,14,Black,58,165,Supplier 2
+225,HL Road Frame - Red- 52,FR-R92R-52,14,Silver,M,356,Supplier 6
+226,HL Road Frame - Red- 56,FR-R92R-56,14,Silver,L,130,Supplier 2
+227,LL Road Frame - Black- 58,FR-R38B-58,14,Black,M,499,Supplier 4
+228,LL Road Frame - Black- 60,FR-R38B-60,14,Black,L,158,Supplier 3
+229,LL Road Frame - Black- 62,FR-R38B-62,14,Black,M,395,Supplier 9
+230,LL Road Frame - Red- 44,FR-R38R-44,14,Black,L,289,Supplier 9
+231,LL Road Frame - Red- 48,FR-R38R-48,14,Silver,S,182,Supplier 9
+232,LL Road Frame - Red- 52,FR-R38R-52,14,Silver,M,441,Supplier 6
+233,LL Road Frame - Red- 58,FR-R38R-58,14,Black,L,410,Supplier 6
+234,LL Road Frame - Red- 60,FR-R38R-60,14,Black,XL,414,Supplier 2
+235,LL Road Frame - Red- 62,FR-R38R-62,14,Black,58,340,Supplier 1
+236,ML Road Frame - Red- 44,FR-R72R-44,14,Black,58,282,Supplier 3
+237,ML Road Frame - Red- 48,FR-R72R-48,14,Silver,58,401,Supplier 8
+238,ML Road Frame - Red- 52,FR-R72R-52,14,Silver,58,170,Supplier 5
+239,ML Road Frame - Red- 58,FR-R72R-58,14,Black,58,270,Supplier 9
+240,ML Road Frame - Red- 60,FR-R72R-60,14,Black,58,415,Supplier 6
+241,LL Road Frame - Black- 44,FR-R38B-44,14,Black,58,350,Supplier 7
+242,LL Road Frame - Black- 48,FR-R38B-48,14,Black,58,154,Supplier 2
+243,LL Road Frame - Black- 52,FR-R38B-52,14,Silver,M,290,Supplier 8
+244,HL Mountain Frame - Silver- 42,FR-M94S-42,12,Silver,L,430,Supplier 4
+245,HL Mountain Frame - Silver- 44,FR-M94S-44,12,Black,M,344,Supplier 1
+246,HL Mountain Frame - Silver- 48,FR-M94S-52,12,Black,L,131,Supplier 4
+247,HL Mountain Frame - Silver- 46,FR-M94S-46,12,Black,M,450,Supplier 7
+248,HL Mountain Frame - Black- 42,FR-M94B-42,12,Black,L,372,Supplier 6
+249,HL Mountain Frame - Black- 44,FR-M94B-44,12,Silver,S,436,Supplier 7
+250,HL Mountain Frame - Black- 48,FR-M94B-48,12,Silver,M,276,Supplier 3
+251,HL Mountain Frame - Black- 46,FR-M94B-46,12,Black,L,175,Supplier 2
+252,HL Mountain Frame - Black- 38,FR-M94B-38,12,Black,XL,442,Supplier 2
+253,HL Mountain Frame - Silver- 38,FR-M94S-38,12,Black,58,237,Supplier 7
+254,Road-150 Red- 62,BK-R93R-62,2,Black,58,487,Supplier 3
+255,Road-150 Red- 44,BK-R93R-44,2,Silver,58,393,Supplier 2
+256,Road-150 Red- 48,BK-R93R-48,2,Silver,58,432,Supplier 5
+257,Road-150 Red- 52,BK-R93R-52,2,Black,58,500,Supplier 3
+258,Road-150 Red- 56,BK-R93R-56,2,Black,58,442,Supplier 8
+259,Road-450 Red- 58,BK-R68R-58,2,Black,58,473,Supplier 1
+260,Road-450 Red- 60,BK-R68R-60,2,Black,58,263,Supplier 2
+261,Road-450 Red- 44,BK-R68R-44,2,Silver,M,330,Supplier 9
+262,Road-450 Red- 48,BK-R68R-48,2,Silver,L,427,Supplier 3
+263,Road-450 Red- 52,BK-R68R-52,2,Black,M,408,Supplier 3
+264,Road-650 Red- 58,BK-R50R-58,2,Black,L,246,Supplier 2
+265,Road-650 Red- 60,BK-R50R-60,2,Black,M,198,Supplier 6
+266,Road-650 Red- 62,BK-R50R-62,2,Black,L,227,Supplier 5
+267,Road-650 Red- 44,BK-R50R-44,2,Silver,S,123,Supplier 8
+268,Road-650 Red- 48,BK-R50R-48,2,Silver,M,152,Supplier 7
+269,Road-650 Red- 52,BK-R50R-52,2,Black,L,423,Supplier 5
+270,Road-650 Black- 58,BK-R50B-58,2,Black,XL,498,Supplier 7
+271,Road-650 Black- 60,BK-R50B-60,2,Black,58,370,Supplier 3
+272,Road-650 Black- 62,BK-R50B-62,2,Black,58,304,Supplier 6
+273,Road-650 Black- 44,BK-R50B-44,2,Silver,58,123,Supplier 7
+274,Road-650 Black- 48,BK-R50B-48,2,Silver,58,341,Supplier 4
+275,Road-650 Black- 52,BK-R50B-52,2,Black,58,348,Supplier 2
+276,Mountain-100 Silver- 38,BK-M82S-38,1,Black,58,140,Supplier 7
+277,Mountain-100 Silver- 42,BK-M82S-42,1,Black,58,395,Supplier 4
+278,Mountain-100 Silver- 44,BK-M82S-44,1,Black,58,302,Supplier 2
+279,Mountain-100 Silver- 48,BK-M82S-48,1,Silver,M,212,Supplier 8
+280,Mountain-100 Black- 38,BK-M82B-38,1,Silver,L,453,Supplier 3
+281,Mountain-100 Black- 42,BK-M82B-42,1,Black,M,202,Supplier 9
+282,Mountain-100 Black- 44,BK-M82B-44,1,Black,L,466,Supplier 2
+283,Mountain-100 Black- 48,BK-M82B-48,1,Black,M,193,Supplier 9
+284,Mountain-200 Silver- 38,BK-M68S-38,1,Black,L,178,Supplier 2
+285,Mountain-200 Silver- 42,BK-M68S-42,1,Silver,S,301,Supplier 1
+286,Mountain-200 Silver- 46,BK-M68S-46,1,Silver,M,379,Supplier 3
+287,Mountain-200 Black- 38,BK-M68B-38,1,Black,L,497,Supplier 9
+288,Mountain-200 Black- 42,BK-M68B-42,1,Black,XL,454,Supplier 5
+289,Mountain-200 Black- 46,BK-M68B-46,1,Black,58,287,Supplier 4
+290,Mountain-300 Black- 38,BK-M47B-38,1,Black,58,127,Supplier 9
+291,Mountain-300 Black- 40,BK-M47B-40,1,Silver,58,134,Supplier 2
+292,Mountain-300 Black- 44,BK-M47B-44,1,Silver,58,352,Supplier 9
+293,Mountain-300 Black- 48,BK-M47B-48,1,Black,58,272,Supplier 3
+294,Road-250 Red- 44,BK-R89R-44,2,Black,58,446,Supplier 7
+295,Road-250 Red- 48,BK-R89R-48,2,Black,58,494,Supplier 4
+296,Road-250 Red- 52,BK-R89R-52,2,Black,58,475,Supplier 5
+297,Road-250 Red- 58,BK-R89R-58,2,Silver,M,164,Supplier 5
+298,Road-250 Black- 44,BK-R89B-44,2,Silver,L,166,Supplier 3
+299,Road-250 Black- 48,BK-R89B-48,2,Black,M,396,Supplier 5
+300,Road-250 Black- 52,BK-R89B-52,2,Black,L,124,Supplier 9
+301,Road-250 Black- 58,BK-R89B-58,2,Black,M,368,Supplier 9
+302,Road-550-W Yellow- 38,BK-R64Y-38,2,Black,L,334,Supplier 2
+303,Road-550-W Yellow- 40,BK-R64Y-40,2,Silver,S,439,Supplier 5
+304,Road-550-W Yellow- 42,BK-R64Y-42,2,Silver,M,288,Supplier 2
+305,Road-550-W Yellow- 44,BK-R64Y-44,2,Black,L,240,Supplier 5
+306,Road-550-W Yellow- 48,BK-R64Y-48,2,Black,XL,454,Supplier 8
+307,LL Fork,FK-1639,10,Black,58,465,Supplier 4
+308,ML Fork,FK-5136,10,Black,58,295,Supplier 4
+309,HL Fork,FK-9939,10,Silver,58,219,Supplier 5
+310,LL Headset,HS-0296,11,Silver,58,138,Supplier 4
+311,ML Headset,HS-2451,11,Black,58,227,Supplier 1
+312,HL Headset,HS-3479,11,Black,58,334,Supplier 4
+313,LL Mountain Handlebars,HB-M243,4,Black,58,206,Supplier 4
+314,ML Mountain Handlebars,HB-M763,4,Black,58,188,Supplier 9
+315,HL Mountain Handlebars,HB-M918,4,Silver,M,176,Supplier 6
+316,LL Road Handlebars,HB-R504,4,Silver,L,159,Supplier 1
+317,ML Road Handlebars,HB-R720,4,Black,M,382,Supplier 6
+318,HL Road Handlebars,HB-R956,4,Black,L,322,Supplier 2
+319,ML Mountain Frame - Black- 38,FR-M63B-38,12,Black,M,379,Supplier 6
+320,LL Mountain Front Wheel,FW-M423,17,Black,L,229,Supplier 9
+321,ML Mountain Front Wheel,FW-M762,17,Silver,S,415,Supplier 5
+322,HL Mountain Front Wheel,FW-M928,17,Silver,M,344,Supplier 9
+323,LL Road Front Wheel,FW-R623,17,Black,L,107,Supplier 6
+324,ML Road Front Wheel,FW-R762,17,Black,XL,252,Supplier 6
+325,HL Road Front Wheel,FW-R820,17,Black,58,483,Supplier 3
+326,Touring Front Wheel,FW-T905,17,Black,58,441,Supplier 8
+327,ML Road Frame-W - Yellow- 38,FR-R72Y-38,14,Silver,58,296,Supplier 9
+328,LL Mountain Rear Wheel,RW-M423,17,Silver,58,197,Supplier 4
+329,ML Mountain Rear Wheel,RW-M762,17,Black,58,337,Supplier 5
+330,HL Mountain Rear Wheel,RW-M928,17,Black,58,497,Supplier 7
+331,LL Road Rear Wheel,RW-R623,17,Black,58,389,Supplier 9
+332,ML Road Rear Wheel,RW-R762,17,Black,58,289,Supplier 6
+333,HL Road Rear Wheel,RW-R820,17,Silver,M,411,Supplier 4
+334,Touring Rear Wheel,RW-T905,17,Silver,L,136,Supplier 7
+335,ML Mountain Frame - Black- 40,FR-M63B-40,12,Black,M,377,Supplier 9
+336,ML Mountain Frame - Black- 44,FR-M63B-44,12,Black,L,190,Supplier 9
+337,ML Mountain Frame - Black- 48,FR-M63B-48,12,Black,M,425,Supplier 3
+338,ML Road Frame-W - Yellow- 40,FR-R72Y-40,14,Black,L,159,Supplier 1
+339,ML Road Frame-W - Yellow- 42,FR-R72Y-42,14,Silver,S,476,Supplier 1
+340,ML Road Frame-W - Yellow- 44,FR-R72Y-44,14,Silver,M,158,Supplier 4
+341,ML Road Frame-W - Yellow- 48,FR-R72Y-48,14,Black,L,222,Supplier 4
+342,HL Road Frame - Black- 62,FR-R92B-62,14,Black,XL,254,Supplier 2
+343,HL Road Frame - Black- 44,FR-R92B-44,14,Black,58,169,Supplier 5
+344,HL Road Frame - Black- 48,FR-R92B-48,14,Black,58,445,Supplier 4
+345,HL Road Frame - Black- 52,FR-R92B-52,14,Silver,58,417,Supplier 2
+346,Men's Sports Shorts- S,SH-M897-S,22,Silver,58,252,Supplier 6
+347,Touring-Panniers- Large,PA-T100,35,Black,58,242,Supplier 5
+348,Cable Lock,LO-C100,34,Black,58,216,Supplier 8
+349,Minipump,PU-0452,36,Black,58,174,Supplier 3
+350,Mountain Pump,PU-M044,36,Black,58,260,Supplier 1
+351,Taillights - Battery-Powered,LT-T990,33,Silver,M,188,Supplier 4
+352,Headlights - Dual-Beam,LT-H902,33,Silver,L,460,Supplier 9
+353,Headlights - Weatherproof,LT-H903,33,Black,M,370,Supplier 8
+354,Men's Sports Shorts- M,SH-M897-M,22,Black,L,402,Supplier 1
+355,Men's Sports Shorts- L,SH-M897-L,22,Black,M,465,Supplier 5
+356,Men's Sports Shorts- XL,SH-M897-X,22,Black,L,151,Supplier 7
+357,Women's Tights- S,TG-W091-S,24,Silver,S,178,Supplier 9
+358,Women's Tights- M,TG-W091-M,24,Silver,M,429,Supplier 1
+359,Women's Tights- L,TG-W091-L,24,Black,L,413,Supplier 7
+360,Men's Bib-Shorts- S,SB-M891-S,18,Black,XL,406,Supplier 1
+361,Men's Bib-Shorts- M,SB-M891-M,18,Black,58,398,Supplier 2
+362,Men's Bib-Shorts- L,SB-M891-L,18,Black,58,473,Supplier 3
+363,Half-Finger Gloves- S,GL-H102-S,20,Silver,58,159,Supplier 9
+364,Half-Finger Gloves- M,GL-H102-M,20,Silver,58,457,Supplier 8
+365,Half-Finger Gloves- L,GL-H102-L,20,Black,58,126,Supplier 4
+366,Full-Finger Gloves- S,GL-F110-S,20,Black,58,476,Supplier 2
+367,Full-Finger Gloves- M,GL-F110-M,20,Black,58,214,Supplier 1
+368,Full-Finger Gloves- L,GL-F110-L,20,Black,58,152,Supplier 9
+369,Classic Vest- S,VE-C304-S,25,Silver,M,111,Supplier 4
+370,Classic Vest- M,VE-C304-M,25,Silver,L,218,Supplier 3
+371,Classic Vest- L,VE-C304-L,25,Black,M,140,Supplier 2
+372,Women's Mountain Shorts- S,SH-W890-S,22,Black,L,404,Supplier 1
+373,Women's Mountain Shorts- M,SH-W890-M,22,Black,M,146,Supplier 5
+374,Women's Mountain Shorts- L,SH-W890-L,22,Black,L,127,Supplier 9
+375,Water Bottle - 30 oz.,WB-H098,28,Silver,S,460,Supplier 2
+376,Mountain Bottle Cage,BC-M005,28,Silver,M,425,Supplier 6
+377,Road Bottle Cage,BC-R205,28,Black,L,265,Supplier 4
+378,Patch Kit/8 Patches,PK-7098,37,Black,XL,487,Supplier 6
+379,Racing Socks- M,SO-R809-M,23,Black,58,113,Supplier 8
+380,Racing Socks- L,SO-R809-L,23,Black,58,315,Supplier 5
+381,Hitch Rack - 4-Bike,RA-H123,26,Silver,58,377,Supplier 1
+382,Bike Wash - Dissolver,CL-9009,29,Silver,58,459,Supplier 4
+383,Fender Set - Mountain,FE-6654,30,Black,58,137,Supplier 4
+384,All-Purpose Bike Stand,ST-1401,27,Black,58,225,Supplier 1
+385,Hydration Pack - 70 oz.,HY-1023-70,32,Black,58,357,Supplier 2
+386,Short-Sleeve Classic Jersey- S,SJ-0194-S,21,Black,58,376,Supplier 9
+387,Short-Sleeve Classic Jersey- M,SJ-0194-M,21,Silver,M,453,Supplier 5
+388,Short-Sleeve Classic Jersey- L,SJ-0194-L,21,Silver,L,484,Supplier 2
+389,Short-Sleeve Classic Jersey- XL,SJ-0194-X,21,Black,M,245,Supplier 2
+390,HL Touring Frame - Yellow- 60,FR-T98Y-60,16,Black,L,186,Supplier 1
+391,LL Touring Frame - Yellow- 62,FR-T67Y-62,16,Black,M,284,Supplier 5
+392,HL Touring Frame - Yellow- 46,FR-T98Y-46,16,Black,L,359,Supplier 4
+393,HL Touring Frame - Yellow- 50,FR-T98Y-50,16,Silver,S,205,Supplier 4
+394,HL Touring Frame - Yellow- 54,FR-T98Y-54,16,Silver,M,463,Supplier 8
+395,HL Touring Frame - Blue- 46,FR-T98U-46,16,Black,L,338,Supplier 2
+396,HL Touring Frame - Blue- 50,FR-T98U-50,16,Black,XL,166,Supplier 1
+397,HL Touring Frame - Blue- 54,FR-T98U-54,16,Black,58,173,Supplier 8
+398,HL Touring Frame - Blue- 60,FR-T98U-60,16,Black,58,464,Supplier 6
+399,Rear Derailleur,RD-2308,9,Silver,58,467,Supplier 8
+400,LL Touring Frame - Blue- 50,FR-T67U-50,16,Silver,58,279,Supplier 4
+401,LL Touring Frame - Blue- 54,FR-T67U-54,16,Black,58,180,Supplier 3
+402,LL Touring Frame - Blue- 58,FR-T67U-58,16,Black,58,147,Supplier 6
+403,LL Touring Frame - Blue- 62,FR-T67U-62,16,Black,58,349,Supplier 4
+404,LL Touring Frame - Yellow- 44,FR-T67Y-44,16,Black,58,126,Supplier 6
+405,LL Touring Frame - Yellow- 50,FR-T67Y-50,16,Silver,M,195,Supplier 3
+406,LL Touring Frame - Yellow- 54,FR-T67Y-54,16,Silver,L,287,Supplier 1
+407,LL Touring Frame - Yellow- 58,FR-T67Y-58,16,Black,M,137,Supplier 7
+408,LL Touring Frame - Blue- 44,FR-T67U-44,16,Black,L,234,Supplier 9
+409,ML Mountain Frame-W - Silver- 40,FR-M63S-40,12,Black,M,390,Supplier 8
+410,ML Mountain Frame-W - Silver- 42,FR-M63S-42,12,Black,L,131,Supplier 3
+411,ML Mountain Frame-W - Silver- 46,FR-M63S-46,12,Silver,S,186,Supplier 3
+412,Rear Brakes,RB-9231,6,Silver,M,415,Supplier 1
+413,LL Mountain Seat/Saddle,SE-M236,15,Black,L,269,Supplier 2
+414,ML Mountain Seat/Saddle,SE-M798,15,Black,XL,449,Supplier 9
+415,HL Mountain Seat/Saddle,SE-M940,15,Black,58,341,Supplier 6
+416,LL Road Seat/Saddle,SE-R581,15,Black,58,110,Supplier 1
+417,ML Road Seat/Saddle,SE-R908,15,Silver,58,232,Supplier 1
+418,HL Road Seat/Saddle,SE-R995,15,Silver,58,346,Supplier 8
+419,LL Touring Seat/Saddle,SE-T312,15,Black,58,357,Supplier 9
+420,ML Touring Seat/Saddle,SE-T762,15,Black,58,463,Supplier 4
+421,HL Touring Seat/Saddle,SE-T924,15,Black,58,129,Supplier 2
+422,LL Mountain Frame - Silver- 42,FR-M21S-42,12,Black,58,363,Supplier 7
+423,LL Mountain Frame - Silver- 44,FR-M21S-44,12,Silver,M,176,Supplier 3
+424,LL Mountain Frame - Silver- 48,FR-M21S-48,12,Silver,L,134,Supplier 3
+425,LL Mountain Frame - Silver- 52,FR-M21S-52,12,Black,M,137,Supplier 6
+426,Mountain Tire Tube,TT-M928,37,Black,L,257,Supplier 5
+427,Road Tire Tube,TT-R982,37,Black,M,158,Supplier 5
+428,Touring Tire Tube,TT-T092,37,Black,L,480,Supplier 3
+429,LL Mountain Frame - Black- 42,FR-M21B-42,12,Silver,S,119,Supplier 1
+430,LL Mountain Frame - Black- 44,FR-M21B-44,12,Silver,M,439,Supplier 6
+431,LL Mountain Frame - Black- 48,FR-M21B-48,12,Black,L,184,Supplier 4
+432,LL Mountain Frame - Black- 52,FR-M21B-52,12,Black,XL,393,Supplier 5
+433,LL Mountain Tire,TI-M267,37,Black,58,159,Supplier 1
+434,ML Mountain Tire,TI-M602,37,Black,58,456,Supplier 4
+435,HL Mountain Tire,TI-M823,37,Silver,58,243,Supplier 3
+436,LL Road Tire,TI-R092,37,Silver,58,456,Supplier 8
+437,ML Road Tire,TI-R628,37,Black,58,360,Supplier 6
+438,HL Road Tire,TI-R982,37,Black,58,466,Supplier 2
+439,Touring Tire,TI-T723,37,Black,58,167,Supplier 8
+440,LL Mountain Pedal,PD-M282,13,Black,58,166,Supplier 3
+441,ML Mountain Pedal,PD-M340,13,Silver,M,373,Supplier 4
+442,HL Mountain Pedal,PD-M562,13,Silver,L,406,Supplier 7
+443,LL Road Pedal,PD-R347,13,Black,M,310,Supplier 1
+444,ML Road Pedal,PD-R563,13,Black,L,451,Supplier 4
+445,HL Road Pedal,PD-R853,13,Black,M,239,Supplier 1
+446,Touring Pedal,PD-T852,13,Black,L,238,Supplier 5
+447,ML Mountain Frame-W - Silver- 38,FR-M63S-38,12,Silver,S,346,Supplier 1
+448,LL Mountain Frame - Black- 40,FR-M21B-40,12,Silver,M,218,Supplier 2
+449,LL Mountain Frame - Silver- 40,FR-M21S-40,12,Black,L,162,Supplier 7
+450,Front Derailleur,FD-2342,9,Black,XL,452,Supplier 5
+451,LL Touring Handlebars,HB-T721,4,Black,58,324,Supplier 2
+452,HL Touring Handlebars,HB-T928,4,Black,58,412,Supplier 6
+453,Front Brakes,FB-9873,6,Silver,58,401,Supplier 1
+454,LL Crankset,CS-4759,8,Silver,58,138,Supplier 7
+455,ML Crankset,CS-6583,8,Black,58,286,Supplier 1
+456,HL Crankset,CS-9183,8,Black,58,172,Supplier 2
+457,Chain,CH-0234,7,Black,58,408,Supplier 4
+458,Touring-2000 Blue- 60,BK-T44U-60,3,Black,58,171,Supplier 9
+459,Touring-1000 Yellow- 46,BK-T79Y-46,3,Silver,M,317,Supplier 2
+460,Touring-1000 Yellow- 50,BK-T79Y-50,3,Silver,L,260,Supplier 4
+461,Touring-1000 Yellow- 54,BK-T79Y-54,3,Black,M,359,Supplier 6
+462,Touring-1000 Yellow- 60,BK-T79Y-60,3,Black,L,466,Supplier 8
+463,Touring-3000 Blue- 54,BK-T18U-54,3,Black,M,103,Supplier 7
+464,Touring-3000 Blue- 58,BK-T18U-58,3,Black,L,336,Supplier 6
+465,Touring-3000 Blue- 62,BK-T18U-62,3,Silver,S,308,Supplier 5
+466,Touring-3000 Yellow- 44,BK-T18Y-44,3,Silver,M,195,Supplier 8
+467,Touring-3000 Yellow- 50,BK-T18Y-50,3,Black,L,137,Supplier 9
+468,Touring-3000 Yellow- 54,BK-T18Y-54,3,Black,XL,387,Supplier 8
+469,Touring-3000 Yellow- 58,BK-T18Y-58,3,Black,58,126,Supplier 3
+470,Touring-3000 Yellow- 62,BK-T18Y-62,3,Black,58,385,Supplier 5
+471,Touring-1000 Blue- 46,BK-T79U-46,3,Silver,58,102,Supplier 3
+472,Touring-1000 Blue- 50,BK-T79U-50,3,Silver,58,211,Supplier 3
+473,Touring-1000 Blue- 54,BK-T79U-54,3,Black,58,235,Supplier 8
+474,Touring-1000 Blue- 60,BK-T79U-60,3,Black,58,363,Supplier 6
+475,Touring-2000 Blue- 46,BK-T44U-46,3,Black,58,347,Supplier 4
+476,Touring-2000 Blue- 50,BK-T44U-50,3,Black,58,294,Supplier 7
+477,Touring-2000 Blue- 54,BK-T44U-54,3,Silver,M,140,Supplier 1
+478,Road-350-W Yellow- 40,BK-R79Y-40,2,Silver,L,105,Supplier 9
+479,Road-350-W Yellow- 42,BK-R79Y-42,2,Black,M,335,Supplier 5
+480,Road-350-W Yellow- 44,BK-R79Y-44,2,Black,L,112,Supplier 7
+481,Road-350-W Yellow- 48,BK-R79Y-48,2,Black,M,357,Supplier 7
+482,Road-750 Black- 58,BK-R19B-58,2,Black,L,438,Supplier 2
+483,Touring-3000 Blue- 44,BK-T18U-44,3,Silver,S,132,Supplier 2
+484,Touring-3000 Blue- 50,BK-T18U-50,3,Silver,M,449,Supplier 2
+485,Mountain-400-W Silver- 38,BK-M38S-38,1,Black,L,453,Supplier 6
+486,Mountain-400-W Silver- 40,BK-M38S-40,1,Black,XL,136,Supplier 2
+487,Mountain-400-W Silver- 42,BK-M38S-42,1,Black,58,408,Supplier 2
+488,Mountain-400-W Silver- 46,BK-M38S-46,1,Black,58,440,Supplier 8
+489,Mountain-500 Silver- 40,BK-M18S-40,1,Silver,58,119,Supplier 6
+490,Mountain-500 Silver- 42,BK-M18S-42,1,Silver,58,500,Supplier 2
+491,Mountain-500 Silver- 44,BK-M18S-44,1,Black,58,419,Supplier 5
+492,Mountain-500 Silver- 48,BK-M18S-48,1,Black,58,199,Supplier 3
+493,Mountain-500 Silver- 52,BK-M18S-52,1,Black,58,484,Supplier 6
+494,Mountain-500 Black- 40,BK-M18B-40,1,Black,58,204,Supplier 6
+495,Mountain-500 Black- 42,BK-M18B-42,1,Silver,M,336,Supplier 8
+496,Mountain-500 Black- 44,BK-M18B-44,1,Silver,L,110,Supplier 4
+497,Mountain-500 Black- 48,BK-M18B-48,1,Black,M,130,Supplier 7
+498,Mountain-500 Black- 52,BK-M18B-52,1,Black,L,497,Supplier 3
+499,LL Bottom Bracket,BB-7421,5,Black,M,186,Supplier 2
+500,ML Bottom Bracket,BB-8107,5,Black,L,479,Supplier 7
+501,HL Bottom Bracket,BB-9108,5,Silver,S,142,Supplier 2
+502,Road-750 Black- 44,BK-R19B-44,2,Silver,M,336,Supplier 8
+503,Road-750 Black- 48,BK-R19B-48,2,Black,L,330,Supplier 6
+504,Road-750 Black- 52,BK-R19B-52,2,Black,52,182,Supplier 2
