@@ -1,0 +1,3 @@
+dataset <- unique(dataset)
+plot(x = dataset$weight, y = dataset$height, col='blue',main='Height and Weight Correlation',
+     abline(lm(dataset$height ~ dataset$weight)), xlab='Weight in LBs', ylab='Height in CMs')

@@ -1,0 +1,91 @@
+library("RCurl")
+library("rjson")
+library(RODBC)
+
+myServer <- "ramthinkpad\\instance2"
+myUser <- "sa"
+myPassword <- "Prestige"
+myDatabase <- "training"
+myDriver <- "SQL Server" # Must correspond to an entry in the Drivers tab of "ODBC Data Sources"
+
+connectionString <- paste0(
+  "Driver=", myDriver, 
+  ";Server=", myServer, 
+  ";Database=", myDatabase, 
+  ";Uid=", myUser, 
+  ";Pwd=", myPassword)
+
+q <- "SELECT * FROM mytable"
+conn <- odbcDriverConnect(connectionString)
+df <- sqlQuery(conn, q)
+
+close(conn) # don't leak connections !
+
+df$score = NA
+df$probability = NA
+
+for(i in 1:nrow(df)) 
+  {
+  
+  row <- df[i, ]
+  
+options(RCurlOptions = list(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
+
+h = basicTextGatherer()
+hdr = basicHeaderGatherer()
+
+req =  list(
+  Inputs = list(
+    "input1"= list(
+      list(
+        'age' = as.character(row$age),
+        'workclass' = as.character(row$workclass),
+        'fnlwgt' = as.character(row$fnlwgt),
+        'education' = as.character(row$education),
+        'education-num' = as.character(row$educationnum),
+        'marital-status' = as.character(row$maritalstatus),
+        'occupation' = as.character(row$occupation),
+        'relationship' = as.character(row$relationship),
+        'race' = as.character(row$race),
+        'sex' = as.character(row$sex),
+        'capital-gain' = as.character(row$capitalgain),
+        'capital-loss' = as.character(row$capitalloss),
+        'hours-per-week' = as.character(row$hoursperweek),
+        'native-country' = as.character(row$nativecountry),
+        'income' = as.character(row$income)
+      )
+    )
+  ),
+  GlobalParameters = setNames(fromJSON('{}'), character(0))
+)
+
+body = enc2utf8(toJSON(req))
+
+api_key = "ffSR9sj6kGk83tMp5drOWXhpU77J7Bx5vI4vjzICEPNcwlmG3q34VlYG/ZR1OgHYIoUi74vxQOrVgipN9OWbuA==" # Replace this with the API key for the web service
+authz_hdr = paste('Bearer', api_key, sep=' ')
+
+h$reset()
+curlPerform(url = "https://ussouthcentral.services.azureml.net/workspaces/f2dc7bcbc4864bc9a7b498100c6dca0a/services/5a7047f8c9ff4d7886c21236ed706c70/execute?api-version=2.0&format=swagger",
+            httpheader=c('Content-Type' = "application/json", 'Authorization' = authz_hdr),
+            postfields=body,
+            writefunction = h$update,
+            headerfunction = hdr$update,
+            verbose = TRUE
+)
+
+headers = hdr$value()
+httpStatus = headers["status"]
+if (httpStatus >= 400)
+{
+  print(paste("The request failed with status code:", httpStatus, sep=" "))
+  print(headers)
+}
+
+result = h$value()
+output <- fromJSON(result)
+
+df[i, ]$score <- output$Results$output1[[1]]$`Scored Labels`
+df[i, ]$probability <- output$Results$output1[[1]]$`Scored Probabilities`
+}
+
+df
