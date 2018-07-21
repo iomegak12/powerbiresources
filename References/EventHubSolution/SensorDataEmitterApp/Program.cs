@@ -30,8 +30,8 @@ namespace PwC.Training.Applications
         {
             Task.Run(() =>
             {
-                var eventHubConnectionString = @"Endpoint=sb://iomegaehnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=V+3Oc1BZk6GEUJAt/UKYgUmlMyuhoktsZikHHghJIqg=";
-                var eventHubPath = "iomegasensordata";
+                var eventHubConnectionString = @"Endpoint=sb://iomeganamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ZdU56cRdnXJ0N2Q+HGOydjyRhMXJQbmDWCOY8/sP7Ko=";
+                var eventHubPath = "sensormessages";
 
                 try
                 {

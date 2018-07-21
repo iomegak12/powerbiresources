@@ -1,0 +1,11 @@
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\bin\Debug\netcoreapp2.0\SensorDataEmitterApp.deps.json
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\bin\Debug\netcoreapp2.0\SensorDataEmitterApp.runtimeconfig.json
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\bin\Debug\netcoreapp2.0\SensorDataEmitterApp.runtimeconfig.dev.json
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\bin\Debug\netcoreapp2.0\SensorDataEmitterApp.dll
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\bin\Debug\netcoreapp2.0\SensorDataEmitterApp.pdb
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\obj\Debug\netcoreapp2.0\SensorDataEmitterApp.csprojAssemblyReference.cache
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\obj\Debug\netcoreapp2.0\SensorDataEmitterApp.csproj.CoreCompileInputs.cache
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\obj\Debug\netcoreapp2.0\SensorDataEmitterApp.AssemblyInfoInputs.cache
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\obj\Debug\netcoreapp2.0\SensorDataEmitterApp.AssemblyInfo.cs
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\obj\Debug\netcoreapp2.0\SensorDataEmitterApp.dll
+C:\0 - PowerBI\Demonstrations\powerbiresources\References\EventHubSolution\SensorDataEmitterApp\obj\Debug\netcoreapp2.0\SensorDataEmitterApp.pdb
