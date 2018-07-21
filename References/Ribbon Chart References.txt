@@ -1,0 +1,4 @@
+In the Fields list, click the following fields:
+a. MonthAndYear (in the DateDimension table)
+b. SalePrice (in the InvoiceLines table)
+c. Make (in the Stock table)

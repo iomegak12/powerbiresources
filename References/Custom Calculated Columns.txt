@@ -1,0 +1,63 @@
+Calculated Columns:
+
+Stocks
+Vehicle = make & model
+
+Tweaking Text
+Clients
+TownAbbreviation = LEFT(Clients[Town],3)
+
+Stocks
+Direct Costs = [CostPrice] - ([SpareParts] + [LaborCost])
+
+InvoiceLines
+Gross Margin = [SalePrice]-RELATED(Stock[DirectCosts)
+
+InvoiceLines
+SalePriceToSalesCostsRatio = DIVIDE(RELATED(Stock[CostPrice]),[SalePrice],0)
+
+Countries
+Clients Per Country = COUNTROWS(RELATEDTABLE(Clients))
+
+Applying Specific Format to Calculation
+Invoices
+Delivery Charge In Dollars = "$ " & FORMAT([DeliveryCharge] * 1.6, "Fixed")
+
+Stocks
+Excessive Parts Cost = IF([SpareParts]>2000,"Too Much!", "OK")
+
+Stocks
+PriceCheck = IF([CostPrice] >= AVERAGE([CostPrice]) *2,"Price too high", "Price OK")
+
+Stocks
+Mileage Range = IF([Mileage] <= 50000, "Low", IF([Mileage] < 100000, "Medium","High"))
+
+Stocks
+Vehicle Age Category=IF(
+[VehicleAgeInYears] <=5,"Under 5",
+IF(AND([VehicleAgeInYears]>=6,[VehicleAgeInYears]<=10),"6-10",
+IF(AND([VehicleAgeInYears]>= 11,[VehicleAgeInYears]<=15),"11-15",
+IF(AND([VehicleAgeInYears]>=16,[VehicleAgeInYears]<=20),"16-20",
+IF(AND([VehicleAgeInYears]>=21,[VehicleAgeInYears]<=25),"21-25",
+IF(AND([VehicleAgeInYears]>=26,[VehicleAgeInYears]<=30),"26-30",
+">30"
+)
+)
+)
+)
+)
+)
+
+Stocks
+Special Sales = IF(
+AND(
+[VehicleType] = "Coupe",
+OR(RELATED(Colors[Color]) = "Red",
+RELATED(Colors[Color]) = "Blue")
+)
+,"Special"
+,"Normal"
+)
+
+
+

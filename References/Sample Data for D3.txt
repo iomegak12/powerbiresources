@@ -1,0 +1,15 @@
+ProductCategory	ProductSubCategory	Product	Revenue
+Bikes	Road Bikes	Road-150 Red, 62	3578,27
+Bikes	Mountain Bikes	Mountain-100 Silver, 44	3399,99
+Bikes	Mountain Bikes	Mountain-100 Silver, 44	3399,99
+Bikes	Road Bikes	Road-650 Black, 62	699,0982
+Bikes	Mountain Bikes	Mountain-100 Silver, 44	3399,99
+Bikes	Road Bikes	Road-150 Red, 44	3578,27
+Bikes	Road Bikes	Road-150 Red, 62	3578,27
+Bikes	Mountain Bikes	Mountain-100 Black, 48	3374,99
+Bikes	Mountain Bikes	Mountain-100 Silver, 38	3399,99
+Bikes	Road Bikes	Road-150 Red, 48	3578,27
+Bikes	Road Bikes	Road-150 Red, 48	3578,27
+Bikes	Road Bikes	Road-650 Red, 52	699,0982
+Bikes	Road Bikes	Road-150 Red, 52	3578,27
+Bikes	Road Bikes	Road-150 Red, 56	3578,27

@@ -1,0 +1,31 @@
+Basic Measures:
+
+TotalSales = SUMX(Orders,Orders[Amount]*Orders[SellingPrice])
+TotalCosts = SUMX(Orders,Orders[PurchasingPrice]*Orders[Amount])
+TotalProfit = [TotalSales]-[TotalCosts]
+
+Cumulative Sales:
+TotalSalesMTD = TOTALMTD([TotalSales],Dates[Date])
+TotalSalesQTD = TOTALQTD([TotalSales],Dates[Date])
+TotalSalesYTD = TOTALYTD([TotalSales],Dates[Date])
+
+Past Sales:
+PreviousDaySales = CALCULATE([TotalSales],PREVIOUSDAY(Dates[Date]))
+PreviousMonthSales = CALCULATE([TotalSales],PREVIOUSMONTH(Dates[Date]))
+
+Compare Timeframe
+SalesDatesInPeriod = CALCULATE([TotalSales],DATESINPERIOD(Dates[Date],DATE(2015,10,1),2,DAY))
+%changeDatesInPeriod = CALCULATE([TotalSales],DATESINPERIOD(Dates[Date],DATE(2016,10,1),2,DAY))/CALCULATE([TotalSales],DATESINPERIOD(Dates[Date],DATE(2015,10,1),2,DAY))
+
+First Day - Last Day in Between Sales
+Salesbetweenfirstandlastdayofmonth = CALCULATE([TotalSales],DATESBETWEEN(Dates[Date],FIRSTDATE(Orders[OrderDate])+1,LASTDATE(Orders[OrderDate])-1))
+
+Moving Average
+MovingAverageofSales = AVERAGEX(DATESINPERIOD(Dates[Date],LASTDATE(Dates[Date]),-20,DAY),[TotalSales])
+
+Compare Selected | Not Selected
+SalesselectedCountry = CALCULATE([TotalSales],ALLSELECTED(Suppliers[Country]))
+NotselectedCountries = CALCULATE([TotalSales],ALL(Suppliers[Country]))-CALCULATE([TotalSales],ALLSELECTED(Suppliers[Country]))
+
+Summarize - Top Sales People Comparison
+Top3EmployeesContribution = SUMX(TOPN(3,SUMMARIZE(Employees,Employees[Employee Name],"Salesperson",[TotalSales]),[Salesperson],DESC),[TotalSales])

@@ -1,0 +1,19 @@
+ npm install -g powerbi-visuals-tools
+
+
+pbiviz
+
+pbiviz --create-cert
+
+
+pbiviz --install-cert
+
+
+pbiviz new myVisualName
+
+pbiviz start
+
+
+pbiviz package
+
+

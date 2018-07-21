@@ -1,0 +1,9 @@
+[
+{"SensorId":1,
+"Location":"Bangalore",
+"Building":"Building-A",
+"RecordedTime":"2005-06-06T10:10:10",
+"Temperature":27,
+"Humidity":40
+}
+]

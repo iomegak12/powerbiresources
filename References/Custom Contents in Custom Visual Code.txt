@@ -1,0 +1,2 @@
+this.target.innerHTML =
+                JSON.stringify(options.dataViews[0].metadata.columns);

@@ -2,10 +2,10 @@ library("RCurl")
 library("rjson")
 library(RODBC)
 
-myServer <- "ramthinkpad\\instance2"
-myUser <- "sa"
-myPassword <- "Prestige"
-myDatabase <- "training"
+myServer <- "iomegasqlserverv2.database.windows.net"
+myUser <- "iomegaadmin"
+myPassword <- "Prestige@123"
+myDatabase <- "iomegasqldatabase"
 myDriver <- "SQL Server" # Must correspond to an entry in the Drivers tab of "ODBC Data Sources"
 
 connectionString <- paste0(
@@ -15,7 +15,7 @@ connectionString <- paste0(
   ";Uid=", myUser, 
   ";Pwd=", myPassword)
 
-q <- "SELECT * FROM mytable"
+q <- "SELECT * FROM Customers"
 conn <- odbcDriverConnect(connectionString)
 df <- sqlQuery(conn, q)
 
@@ -61,11 +61,11 @@ req =  list(
 
 body = enc2utf8(toJSON(req))
 
-api_key = "ffSR9sj6kGk83tMp5drOWXhpU77J7Bx5vI4vjzICEPNcwlmG3q34VlYG/ZR1OgHYIoUi74vxQOrVgipN9OWbuA==" # Replace this with the API key for the web service
+api_key = "3OHg8fBGKiO8RaD2SiSlGQV3c+LYZyVErvPa1kjuaXlWsv1V1o9O/E0FTzTkT7h1lzSdFM8II5qGNxAQvgrv6w==" # Replace this with the API key for the web service
 authz_hdr = paste('Bearer', api_key, sep=' ')
 
 h$reset()
-curlPerform(url = "https://ussouthcentral.services.azureml.net/workspaces/f2dc7bcbc4864bc9a7b498100c6dca0a/services/5a7047f8c9ff4d7886c21236ed706c70/execute?api-version=2.0&format=swagger",
+curlPerform(url = "https://ussouthcentral.services.azureml.net/workspaces/50bb81cab8484be8be0bc3adc158e858/services/87d239ec25eb4931b5bb393376785e98/execute?api-version=2.0&format=swagger",
             httpheader=c('Content-Type' = "application/json", 'Authorization' = authz_hdr),
             postfields=body,
             writefunction = h$update,
